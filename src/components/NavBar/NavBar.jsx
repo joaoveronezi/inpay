@@ -5,10 +5,9 @@ import Logo from "../../assets/images/logo.png";
 const NavBar = () => {
   return (
     <nav>
-      <div className="left-item-container">
+      <div>
         <img src={Logo} className="logo"></img>
       </div>
-
       <ul className="right-item-container">
         <li>
           <a href="#">Home</a>
