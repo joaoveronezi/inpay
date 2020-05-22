@@ -1,0 +1,28 @@
+nav {
+  background: transparent;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+
+  .right-item-container {
+    margin-left: 100px !important;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0.5rem;
+  }
+}
+.logo {
+  width: 120px;
+  padding-top: 0.5rem;
+}
