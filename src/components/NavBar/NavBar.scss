@@ -4,8 +4,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  width: 100vw;
+  position: sticky;
+  top: 0;
+
   .right-item-container {
     padding-right: 10rem;
   }
@@ -19,11 +20,15 @@ nav {
   li {
     display: inline-block;
     font-size: 16px;
-    padding: 0.3rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
   }
 }
 .logo {
   padding-left: 1rem;
   width: 120px;
   padding-top: 0.5rem;
+}
+.scrollNav {
+  background: #054cb4;
 }
