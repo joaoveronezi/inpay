@@ -1,0 +1,38 @@
+.navbar {
+  background: #054cb4;
+  visibility: visible;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  transition: top 0.3s;
+  .right-item-container {
+    padding-right: 10rem;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0.2rem;
+    padding-left: 1rem;
+  }
+}
+.logo {
+  padding-left: 1rem;
+  width: 120px;
+  padding-top: 0.5rem;
+}
+.navbar--hidden {
+  top: -50px;
+  visibility: hidden;
+  transition: all 200ms ease-out;
+}
