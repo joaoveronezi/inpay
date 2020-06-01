@@ -1,3 +1,19 @@
-.teste {
-  padding-top: 300px;
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+.HomeContent {
+  font-family: "Roboto", Arial;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 8%;
+  justify-content: space-around;
+  align-content: center;
+  padding-right: 10%;
+  .aside {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
