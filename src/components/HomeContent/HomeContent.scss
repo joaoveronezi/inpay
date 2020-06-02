@@ -4,16 +4,34 @@
 }
 
 .HomeContent {
-  font-family: "Roboto", Arial;
-  color: white;
+  width: 100%;
+  height: 100%;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
-  padding-top: 8%;
-  justify-content: space-around;
-  align-content: center;
-  padding-right: 10%;
-  .aside {
-    display: flex;
-    justify-content: flex-start;
+}
+@media screen and (max-width: 700px) {
+  .HomeContent {
+    flex-direction: column;
   }
+}
+.Lside {
+  flex-shrink: 3;
+  flex: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.Rside {
+  flex-shrink: 3;
+  flex: 40%;
+  font-family: "Roboto";
+  font-size: 80px;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+.cellphoneDir {
+  width: 370px;
 }
