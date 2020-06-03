@@ -14,7 +14,10 @@ const HomeContent = () => {
         ></img>
       </div>
       <div className="Rside">
-        <p>Não é sobre dinheiro , mas sim sobre sonhos</p>
+        <p>
+          Não é sobre <strong>dinheiro</strong>, mas sim sobre{" "}
+          <strong>sonhos</strong>
+        </p>
       </div>
     </div>
   );
