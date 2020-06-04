@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 100vw;
+  width: 96vw;
   top: 0;
   transition: top 0.3s;
   .right-item-container {
@@ -35,4 +35,26 @@
   top: -50px;
   visibility: hidden;
   transition: all 200ms ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 96vw;
+    ul {
+      display: none;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    li {
+      display: inline-block;
+      font-size: 16px;
+      padding: 0.2rem;
+      padding-left: 2rem;
+    }
+    .logo {
+      padding-left: 0%;
+    }
+  }
 }

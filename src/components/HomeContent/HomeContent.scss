@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Roboto";
   src: url("../../assets/fonts/Roboto-Thin.ttf") format("truetype");
+  // src: url("../../assets/fonts/Roboto-Bold.ttf") format("truetype");
 }
 
 .HomeContent {
@@ -11,29 +12,47 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  .Lside {
-    flex-shrink: 3;
-    flex: 60%;
-    display: flex;
-    justify-content: center;
-  }
-
   .Rside {
     flex-shrink: 3;
     flex: 40%;
-    font-family: "Roboto";
+    font-family: "Roboto", Arial;
     font-size: 65px;
     color: white;
     text-align: right;
     padding-right: 3%;
   }
-}
-@media screen and (max-width: 700px) {
-  .HomeContent {
-    flex-direction: column;
+  h6 {
+    font-size: 30px;
+    font-weight: lighter;
   }
+}
+.Lside {
+  flex-shrink: 3;
+  flex: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 .cellphoneDir {
   width: 370px;
+}
+
+@media screen and (max-width: 768px) {
+  .HomeContent {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .Lside {
+    display: none;
+  }
+  .HomeContent {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30%;
+    .Rside {
+      font-size: 50px;
+    }
+  }
 }
