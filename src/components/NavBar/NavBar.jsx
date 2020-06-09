@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.scss";
 import Logo from "../../assets/images/logo.png";
-import { FaAlignRight } from "react-icons/fa";
+import { BsList } from "react-icons/bs";
 
 const NavBar = ({ navbarStyle }) => {
   const [isPanelOpen, setPanel] = useState(false);
@@ -13,7 +13,7 @@ const NavBar = ({ navbarStyle }) => {
   return (
     <nav className={navbarStyle}>
       <div>
-        <img src={Logo} href="/#" className="logo" alt="logo"></img>
+        <img src={Logo} href="/#" className="logo" alt="logo" />
       </div>
       <div>
         <div
@@ -21,16 +21,16 @@ const NavBar = ({ navbarStyle }) => {
           className="sidepanel"
           style={{ width: isPanelOpen ? "250px" : "0px" }}
         >
-          <a className="closebtn" href="/" onClick={OpenPanel}>
+          <button className="closebtn" onClick={OpenPanel}>
             ×
-          </a>
+          </button>
           <a href="/#">Home</a>
-          <a href="/#">Quem somos</a>
+          <a href="#quemsomos">Quem somos</a>
           <a href="/#">Serviços</a>
           <a href="/#">Contato</a>
         </div>
         <button className="openbtn" onClick={OpenPanel}>
-          <FaAlignRight />
+          <BsList />
         </button>
       </div>
       <ul>
@@ -38,7 +38,7 @@ const NavBar = ({ navbarStyle }) => {
           <a href="/#">Home</a>
         </li>
         <li>
-          <a href="/#">Quem somos</a>
+          <a href="#quemsomos">Quem somos</a>
         </li>
         <li>
           <a href="/#">Serviços</a>

@@ -6,10 +6,16 @@
   bottom: -1px;
   height: 100%;
   width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 @media screen and (max-width: 768px) {
   .home {
     background-color: #054cb4;
     background-image: none;
+    background-attachment: scroll;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
   }
 }
