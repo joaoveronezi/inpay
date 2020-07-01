@@ -1,12 +1,14 @@
 import React from "react";
 
 import "./QuemSomos.scss";
-import Valores from "../Valores";
+import About from "../AboutInfo";
 
 const QuemSomos = () => {
   return (
     <div id="quemsomos">
-      <Valores />
+      <About title={"Exemplo titulo"} text={"teste"} />
+      <About title={"Exemplo titulo"} text={"teste"} />
+      <About title={"Exemplo titulo"} text={"teste"} />
     </div>
   );
 };
