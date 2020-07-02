@@ -1,14 +1,41 @@
-.test {
+.About {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
   padding-top: 10%;
-  padding-bottom: 10%;
 }
-
+.aboutText {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 55%;
+  h1 {
+    font-size: 48px;
+    color: #054cb4;
+    font-family: Poppins-ExtraBold;
+    width: 50%;
+    align-self: flex-start;
+    flex-grow: 0;
+    order: 1;
+  }
+  p {
+    align-self: flex-start;
+    width: 60%;
+    flex-grow: 0;
+    order: 2;
+  }
+}
+.art {
+  width: 400px;
+  height: 500px;
+}
+.aboutImg {
+  width: auto;
+  margin-left: 15%;
+}
 @media screen and (max-width: 768px) {
-  .carnavalesco {
+  .aboutImg,
+  .turnAboutImg {
     display: none;
   }
 }
