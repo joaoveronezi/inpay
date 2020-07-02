@@ -7,11 +7,13 @@ import img from "../../assets/images/Rectangle.png";
 const QuemSomos = () => {
   const text1 =
     "Somos uma fintech que nasceu com o proposito de melhorar a vida financeira das pessoas." +
-    " Nosso proposito é realizar sonhos através da educação financeira e das melhores práticas de planejamento e estratégicas de investimento conforme cada perfil";
+    " Nosso proposito é realizar sonhos através da educação" +
+    " financeira" +
+    "e das melhores práticas de planejamento e estratégicas de investimento conforme cada perfil.";
   const text2 =
     "Temos como meta ser referência e lider em inclusão de pessoas e empresas à boas praticas de planejamento / gestão financeira e investimento.";
   const text3 =
-    "Nossos valores se fundamentam  em educação para todos, transparência e empoderamento das pessoas quando o assunto é se planejar e investir";
+    "Nossos valores se fundamentam em educação para todos, transparência e empoderamento das pessoas quando o assunto é se planejar e investir.";
   return (
     <div id="quemsomos">
       <About img={img} title={"Quem somos nós"} text={text1} turn={false} />
