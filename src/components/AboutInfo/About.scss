@@ -1,0 +1,141 @@
+.About {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10%;
+}
+.aboutText {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 57%;
+  h1 {
+    font-size: 40px;
+    color: #054cb4;
+    font-family: Poppins-ExtraBold;
+    width: 50%;
+    align-self: flex-start;
+    flex-grow: 0;
+    order: 1;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 20%;
+    padding-top: 20px;
+    border-bottom: 1px solid #153177;
+    transition: 0.5s;
+  }
+  h1:hover:after {
+    width: 80%;
+  }
+  p {
+    text-align: justify;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat-Light;
+    align-self: flex-start;
+    width: 60%;
+    flex-grow: 0;
+    order: 2;
+  }
+}
+.art {
+  width: 400px;
+  height: 500px;
+}
+.aboutImg {
+  width: auto;
+  margin-left: 14%;
+}
+
+.AboutVirado {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 10%;
+  p {
+    text-align: justify;
+    align-self: flex-start;
+    margin-right: 4%;
+  }
+  h1 {
+    align-self: flex-end;
+    margin-right: 4%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 20%;
+    padding-top: 20px;
+    border-bottom: 1px solid #153177;
+    transition: 0.5s;
+    align-self: flex-end;
+  }
+  h1:hover:after {
+    width: 80%;
+  }
+  .aboutImg {
+    margin-left: 0;
+    order: 2;
+  }
+  .aboutText {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboutImg,
+  .turnAboutImg {
+    display: none;
+  }
+  .About {
+    flex-direction: column;
+    .aboutText {
+      width: 100%;
+      align-content: center;
+      h1 {
+        align-self: center;
+        width: 70%;
+        font-size: 30px;
+      }
+      p {
+        text-align: justify;
+        align-self: center;
+        width: 70%;
+        margin: 5%;
+      }
+    }
+  }
+  .AboutVirado {
+    flex-direction: column;
+    .aboutText {
+      width: 100%;
+      align-content: center;
+      h1 {
+        align-self: center;
+        width: 70%;
+        font-size: 30px;
+      }
+      p {
+        text-align: justify;
+        align-self: center;
+        width: 70%;
+        margin: 5%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .art {
+    width: 80px;
+    height: 30px;
+  }
+}

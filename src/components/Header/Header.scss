@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 96vw;
+  width: 97vw;
   top: 0;
   transition: top 0.3s;
   .right-item-container {
@@ -14,6 +14,7 @@
   }
   ul {
     list-style-type: none;
+    padding-right: 7%;
   }
   a {
     color: white;
@@ -26,6 +27,10 @@
     padding-left: 2rem;
   }
 }
+a:hover {
+  color: black;
+}
+
 .logo {
   padding-left: 40%;
   width: 120px;
