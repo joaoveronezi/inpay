@@ -10,7 +10,7 @@
   justify-content: center;
   width: 57%;
   h1 {
-    font-size: 48px;
+    font-size: 40px;
     color: #054cb4;
     font-family: Poppins-ExtraBold;
     width: 50%;
@@ -21,19 +21,19 @@
   h1:after {
     content: "";
     display: block;
-    width: 30%;
+    width: 20%;
     padding-top: 20px;
     border-bottom: 1px solid #153177;
     transition: 0.5s;
   }
   h1:hover:after {
-    width: 100%;
+    width: 80%;
   }
   p {
     text-align: justify;
     line-height: 40px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Montserrat-Light;
     align-self: flex-start;
     width: 60%;
@@ -70,14 +70,14 @@
   h1:after {
     content: "";
     display: block;
-    width: 30%;
+    width: 20%;
     padding-top: 20px;
     border-bottom: 1px solid #153177;
     transition: 0.5s;
     align-self: flex-end;
   }
   h1:hover:after {
-    width: 100%;
+    width: 80%;
   }
   .aboutImg {
     margin-left: 0;
