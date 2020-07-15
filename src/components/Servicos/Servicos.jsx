@@ -11,40 +11,32 @@ import Card from "../Card/index";
 
 const Servicos = () => {
   return (
-    <div id="servicesContainer">
+    <div className="servicesContainer">
       <div className="servicesTitle">
         <h1>Serviços</h1>
       </div>
-      <div className="serviceMosaic">
+      <div className="serviceMosaic" id="servicesContainer">
         <Card
           image={acomp}
           title="Acompanhamento Online"
           alt="Acompanhamento Online"
-        />
-        <Card
-          image={plat}
-          title="Plataforma Fácil e Adaptável"
-          alt="Plataforma Fácil e Adaptável"
-        />
-        <Card
-          image={consul}
-          title="Consultoria Premium"
-          alt="Consultoria Premium"
+          image2={plat}
+          title2="Plataforma Fácil e Adaptável"
+          alt2="Plataforma Fácil e Adaptável"
+          image3={consul}
+          title3="Consultoria Premium"
+          alt3="Consultoria Premium"
         />
         <Card
           image={amigo}
           title="Consórcio Entre Amigos"
           alt="Consórcio Entre Amigos"
-        />
-        <Card
-          image={invest}
-          title="Investimento Facilitado"
-          alt="Investimento Facilitado"
-        />
-        <Card
-          image={parceria}
-          title="Parceria com Bancos e Corretoras"
-          alt="Parceria com Bancos e Corretoras"
+          image2={invest}
+          title2="Investimento Facilitado"
+          alt2="Investimento Facilitado"
+          image3={parceria}
+          title3="Parceria com Bancos e Corretoras"
+          alt3="Parceria com Bancos e Corretoras"
         />
       </div>
     </div>
