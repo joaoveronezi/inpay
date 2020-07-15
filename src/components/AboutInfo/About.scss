@@ -12,7 +12,7 @@
   h1 {
     font-size: 40px;
     color: #054cb4;
-    font-family: Poppins-ExtraBold;
+    font-family: "Poppins-Bold";
     width: 50%;
     align-self: flex-start;
     flex-grow: 0;
@@ -23,7 +23,7 @@
     display: block;
     width: 20%;
     padding-top: 20px;
-    border-bottom: 1px solid #153177;
+    border-bottom: 1px solid black;
     transition: 0.5s;
   }
   h1:hover:after {
@@ -34,7 +34,7 @@
     line-height: 40px;
     text-decoration: none;
     font-size: 18px;
-    font-family: Montserrat-Light;
+    font-family: "Montserrat-Light";
     align-self: flex-start;
     width: 60%;
     flex-grow: 0;
@@ -72,7 +72,7 @@
     display: block;
     width: 20%;
     padding-top: 20px;
-    border-bottom: 1px solid #153177;
+    border-bottom: 1px solid black;
     transition: 0.5s;
     align-self: flex-end;
   }

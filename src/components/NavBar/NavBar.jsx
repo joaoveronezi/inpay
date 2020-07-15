@@ -26,7 +26,7 @@ const NavBar = ({ navbarStyle }) => {
           </button>
           <a href="/#">Home</a>
           <a href="#quemsomos">Quem somos</a>
-          <a href="/#">Serviços</a>
+          <a href="#servicesContainer">Serviços</a>
           <a href="/#">Contato</a>
         </div>
         <button className="openbtn" onClick={OpenPanel}>
@@ -41,7 +41,7 @@ const NavBar = ({ navbarStyle }) => {
           <a href="#quemsomos">Quem somos</a>
         </li>
         <li>
-          <a href="/#">Serviços</a>
+          <a href="#servicesContainer">Serviços</a>
         </li>
         <li>
           <a href="/#">Contato</a>
