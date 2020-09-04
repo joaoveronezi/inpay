@@ -13,7 +13,9 @@ const NavBar = ({ navbarStyle }) => {
   return (
     <nav className={navbarStyle}>
       <div>
-        <img src={Logo} href="/#" className="logo" alt="logo" />
+        <a href="/#">
+          <img src={Logo} href="#" className="logo" alt="logo" />
+        </a>
       </div>
       <div>
         <div
@@ -27,7 +29,7 @@ const NavBar = ({ navbarStyle }) => {
           <a href="/#">Home</a>
           <a href="#quemsomos">Quem somos</a>
           <a href="#servicesContainer">Serviços</a>
-          <a href="/#">Contato</a>
+          <a href="#footerContainer">Contato</a>
         </div>
         <button className="openbtn" onClick={OpenPanel}>
           <BsList />
@@ -44,7 +46,7 @@ const NavBar = ({ navbarStyle }) => {
           <a href="#servicesContainer">Serviços</a>
         </li>
         <li>
-          <a href="/#">Contato</a>
+          <a href="#footerContainer">Contato</a>
         </li>
       </ul>
     </nav>
