@@ -45,6 +45,7 @@ a:hover {
 @media screen and (max-width: 768px) {
   .navbar {
     width: 96vw;
+    z-index: 3;
     ul {
       display: none;
     }

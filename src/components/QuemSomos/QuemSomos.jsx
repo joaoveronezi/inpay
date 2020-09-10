@@ -2,7 +2,9 @@ import React from "react";
 
 import "./QuemSomos.scss";
 import About from "../AboutInfo";
-import img from "../../assets/images/Rectangle.png";
+import img1 from "../../assets/images/MocaDindin3.png";
+import img2 from "../../assets/images/MocoGrafico2.png";
+import img3 from "../../assets/images/MocaVoando2.png";
 
 const QuemSomos = () => {
   const text1 =
@@ -16,14 +18,19 @@ const QuemSomos = () => {
     "Nossos valores se fundamentam em educação para todos, transparência e empoderamento das pessoas quando o assunto é se planejar e investir.";
   return (
     <div id="quemsomos">
-      <About img={img} title={"Quem somos nós"} text={text1} turn={false} />
+      <About img={img1} title={"Quem somos nós"} text={text1} turn={false} />
       <About
-        img={img}
+        img={img2}
         title={"Onde queremos chegar"}
         text={text2}
         turn={true}
       />
-      <About img={img} title={"Em que acreditamos"} text={text3} turn={false} />
+      <About
+        img={img3}
+        title={"Em que acreditamos"}
+        text={text3}
+        turn={false}
+      />
     </div>
   );
 };

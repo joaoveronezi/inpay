@@ -1,6 +1,7 @@
 .cardImage {
   width: 90px;
   height: 90px;
+  margin: 0 auto;
 }
 .cardContainer {
   display: flex;
@@ -13,10 +14,14 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 300px;
-  margin: 30px;
-  text-align: center;
-  font-family: "Montserrat-Light";
+  width: 15vw;
+  margin: 40px;
+  h3 {
+    text-align: center;
+    font-family: "Montserrat-Light";
+    margin-top: 40px;
+    height: 30px;
+  }
 }
 // Responsividade
 @media screen and (max-width: 1024px) {

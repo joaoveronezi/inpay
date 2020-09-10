@@ -7,15 +7,15 @@ import consul from "../../assets/images/icons/consul.png";
 import invest from "../../assets/images/icons/invest.png";
 import parceria from "../../assets/images/icons/parceria.png";
 import plat from "../../assets/images/icons/plat.png";
-import Card from "../Card/index";
+import Card from "../Card";
 
 const Servicos = () => {
   return (
     <div className="servicesContainer">
-      <div className="servicesTitle">
+      <div className="servicesTitle" id="servicesContainer">
         <h1>Serviços</h1>
       </div>
-      <div className="serviceMosaic" id="servicesContainer">
+      <div className="serviceMosaic">
         <Card
           image={acomp}
           title="Acompanhamento Online"
