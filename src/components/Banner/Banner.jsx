@@ -9,11 +9,11 @@ const Banner = () => {
     <div className="BannerContainer">
       <div>
         <h2>Baixe Nosso E-book de graça</h2>
-        <img src={Ebook} />
+        <img src={Ebook} alt="ebook" />
       </div>
       <div>
         <h2>Ou se preferir, planilhas para te ajudar</h2>
-        <img src={Planilha} />
+        <img src={Planilha} alt="planilha" />
       </div>
     </div>
   );
