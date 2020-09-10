@@ -11,7 +11,7 @@ const QuemSomos = () => {
     "Somos uma fintech que nasceu com o proposito de melhorar a vida financeira das pessoas." +
     " Nosso proposito é realizar sonhos através da educação" +
     " financeira" +
-    "e das melhores práticas de planejamento e estratégicas de investimento conforme cada perfil.";
+    " e das melhores práticas de planejamento e estratégicas de investimento conforme cada perfil.";
   const text2 =
     "Temos como meta ser referência e lider em inclusão de pessoas e empresas à boas praticas de planejamento / gestão financeira e investimento.";
   const text3 =
