@@ -18,10 +18,18 @@ const Footer = () => {
             <a href="/#">
               <img src={FacebookIcon} className="socialLogo" alt="logo" />
             </a>
-            <a href="https://www.linkedin.com/company/inpay-solu%C3%A7%C3%B5es-financeiras/">
+            <a
+              href="https://www.linkedin.com/company/inpay-solu%C3%A7%C3%B5es-financeiras/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <img src={LinkedinIcon} className="socialLogo" alt="logo" />
             </a>
-            <a href="https://www.instagram.com/in.pay">
+            <a
+              href="https://www.instagram.com/in.pay"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <img src={InstagramIcon} className="socialLogo" alt="logo" />
             </a>
           </div>

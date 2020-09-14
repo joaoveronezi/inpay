@@ -25,12 +25,14 @@ const QuemSomos = () => {
         text={text2}
         turn={true}
       />
+
       <About
         img={img3}
         title={"Em que acreditamos"}
         text={text3}
         turn={false}
       />
+      <p className="Escrito"> - Sobre Nós</p>
     </div>
   );
 };
