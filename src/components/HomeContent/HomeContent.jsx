@@ -9,7 +9,7 @@ const HomeContent = () => {
   return (
     <div className="HomeContent">
       <div className="Lside">
-        <Slide bottom>
+        <Slide bottom duration={1000}>
           <img
             src={cellphone}
             href="/#"

@@ -13,10 +13,7 @@
   .home {
     background-color: #054cb4;
     background-image: none;
-    background-attachment: scroll;
     background-attachment: fixed;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background-repeat: no-repeat;
   }
 }
