@@ -14,8 +14,9 @@
     background-color: #054cb4;
     background-image: none;
     background-attachment: scroll;
-    // position: fixed;
-    // top: 0;
-    // left: 0;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
   }
 }

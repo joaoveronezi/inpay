@@ -25,4 +25,7 @@
   bottom: -2470px;
   font-size: 17px;
   z-index: -3;
+  @media (max-width: 1024px) {
+    display: none;
+  }
 }
