@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.scss";
 import classnames from "classnames";
 import NavBar from "../NavBar/NavBar";
