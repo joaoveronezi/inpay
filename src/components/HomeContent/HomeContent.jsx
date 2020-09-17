@@ -24,7 +24,7 @@ const HomeContent = () => {
             Não é sobre <strong>dinheiro</strong>, mas sim sobre{" "}
             <strong>sonhos!</strong>
           </p>
-          <h6>#VemProAzul </h6>
+          <h6>#VemProAzul</h6>
         </div>
         <a href="#quemsomos">
           <img src={arrow} className="arrow" alt="Arrow pointing down"></img>
