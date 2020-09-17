@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeContent.scss";
-import cellphone from "../../assets/images/Component3.png";
+import cellphone from "../../assets/images/Frame.png";
 import arrow from "../../assets/images/seta.gif";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";

@@ -2,7 +2,6 @@
   font-family: "Roboto";
   src: url("../../assets/fonts/Roboto-Thin.ttf") format("truetype");
 }
-
 .arrow {
   display: none;
 }
@@ -29,14 +28,16 @@
   }
 }
 .Lside {
-  flex-shrink: 3;
-  flex: 60%;
   display: flex;
   justify-content: center;
+  flex-shrink: 3;
+  flex: 60%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .cellphoneDir {
-  width: 370px;
+  width: 30vw;
 }
 
 @media screen and (max-width: 768px) {
