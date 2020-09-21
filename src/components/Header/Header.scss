@@ -41,12 +41,19 @@ a:hover {
   top: -50px;
   visibility: hidden;
   transition: all 200ms ease-out;
+  @media (max-width: 768px) {
+    position: fixed;
+    top: 0;
+    visibility: visible;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .navbar {
     width: 96vw;
     z-index: 3;
+    position: fixed;
+    top: 0;
     ul {
       display: none;
     }

@@ -15,7 +15,6 @@ const QuemSomos = () => {
   return (
     <div id="quemsomos">
       <About img={img1} title={"Quem somos nós"} text={text[0]} turn={false} />
-
       <About
         img={img2}
         title={"Onde queremos chegar"}

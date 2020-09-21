@@ -9,7 +9,7 @@ const About = ({ img, title, text, turn }) => {
         <img src={img} href="/#" alt="logo" className="art" />
       </div>
       <div className="aboutText">
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <p>{text}</p>
       </div>
     </div>

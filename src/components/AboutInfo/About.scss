@@ -10,7 +10,7 @@
   flex-flow: column wrap;
   justify-content: center;
   width: 57%;
-  h1 {
+  h2 {
     font-size: 40px;
     color: #054cb4;
     font-family: "Poppins-Bold";
@@ -19,7 +19,7 @@
     flex-grow: 0;
     order: 1;
   }
-  h1:after {
+  h2:after {
     content: "";
     display: block;
     width: 20%;
@@ -27,7 +27,7 @@
     border-bottom: 1px solid black;
     transition: 0.5s;
   }
-  h1:hover:after {
+  h2:hover:after {
     width: 80%;
   }
   p {
@@ -66,14 +66,14 @@
     align-self: flex-start;
     margin-right: 4%;
   }
-  h1 {
+  h2 {
     align-self: flex-end;
     margin-right: 4%;
     text-align: right;
     display: flex;
     flex-direction: column;
   }
-  h1:after {
+  h2:after {
     content: "";
     display: block;
     width: 20%;
@@ -82,7 +82,7 @@
     transition: 0.5s;
     align-self: flex-end;
   }
-  h1:hover:after {
+  h2:hover:after {
     width: 80%;
   }
   .aboutImg {
@@ -109,10 +109,10 @@
     .aboutText {
       width: 100%;
       align-content: center;
-      h1 {
+      h2 {
         align-self: center;
         width: 70%;
-        font-size: 30px;
+        font-size: 27px;
       }
       p {
         text-align: justify;
@@ -127,10 +127,10 @@
     .aboutText {
       width: 100%;
       align-content: center;
-      h1 {
+      h2 {
         align-self: center;
         width: 70%;
-        font-size: 30px;
+        font-size: 27px;
       }
       p {
         text-align: justify;

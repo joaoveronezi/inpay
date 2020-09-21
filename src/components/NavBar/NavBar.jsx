@@ -1,14 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./NavBar.scss";
 import Logo from "../../assets/images/logo.png";
 import { BsList } from "react-icons/bs";
 
 const NavBar = ({ navbarStyle }) => {
   const [isPanelOpen, setPanel] = useState(false);
+  const node = useRef();
 
   const OpenPanel = () => {
     setPanel(!isPanelOpen);
   };
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (node.current.contains(e.target)) {
+        return;
+      }
+      if (isPanelOpen) {
+        setPanel(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [isPanelOpen]);
 
   return (
     <nav className={navbarStyle}>
@@ -19,6 +33,7 @@ const NavBar = ({ navbarStyle }) => {
       </div>
       <div>
         <div
+          ref={node}
           id="mySidepanel"
           className="sidepanel"
           style={{ width: isPanelOpen ? "250px" : "0px" }}
