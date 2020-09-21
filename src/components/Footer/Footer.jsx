@@ -8,7 +8,7 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div className="style">
+    <div className="footer">
       <div id="footerContainer">
         <div className="LSideContato">
           <a href="/#">
@@ -39,7 +39,7 @@ const Footer = () => {
             Avenida Barão Homem de Melo 4508 5° Andar, sala 511 <br />
             Belo Horizonte - MG,
             <br />
-            Brazil 30494-270
+            Brasil 30494-270
           </p>
         </div>
       </div>
