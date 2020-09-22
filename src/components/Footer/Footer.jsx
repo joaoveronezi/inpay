@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className="RSideContato">
           <p>
-            Avenida Barão Homem de Melo 4508 5° Andar, sala 511 <br />
+            Avenida Barão Homem de Melo 4500 5° Andar, sala 511 <br />
             Belo Horizonte - MG,
             <br />
             Brasil 30494-270
