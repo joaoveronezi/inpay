@@ -9,7 +9,7 @@ import img3 from "../../assets/images/MocaVoando2.png";
 const QuemSomos = () => {
   const text = [
     "Somos uma fintech que nasceu com o propósito de melhorar a vida financeira das pessoas. Nosso intuito é realizar sonhos através da educação financeira e das melhores práticas de planejamento e estratégias de investimento, conforme cada perfil.",
-    "Temos como meta, ser referência em inclusão de pessoas e empresas às boas praticas de planejamento/gestão financeira e investimento.",
+    "Nossa meta é ser referência em inclusão de pessoas e empresas, às boas práticas de planejamento, gestão financeira e investimento.",
     "Nossos valores se fundamentam em educação financeira para todos, transparência e empoderamento de pessoas quando o assunto é se planejar e investir.",
   ];
   return (
