@@ -6,7 +6,7 @@ import Home from "../components/Home";
 import QuemSomos from "../components/QuemSomos";
 import Servicos from "../components/Servicos";
 import Footer from "../components/Footer";
-//import Banner from "../components/Banner";
+import Banner from "../components/Banner";
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <Home />
       <QuemSomos />
       <Servicos />
+      <Banner />
       <Footer />
     </div>
   );
