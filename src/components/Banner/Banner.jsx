@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./Banner.scss";
-import mockMac from "../../assets/images/mockMacBook.png";
 import mockIphone from "../../assets/images/mockIphone.png";
 import Livro from "../../assets/download/ebook_inpay.pdf";
 
