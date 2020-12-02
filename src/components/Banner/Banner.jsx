@@ -24,11 +24,6 @@ const Banner = () => {
               E-Book 1
             </a>
           </button>
-          <button>
-            <a href={Planilha} download>
-              Planiha Oficial
-            </a>
-          </button>
         </div>
       </div>
     </div>
