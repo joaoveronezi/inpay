@@ -3,14 +3,12 @@ import React from "react";
 import "./Banner.scss";
 import mockMac from "../../assets/images/mockMacBook.png";
 import mockIphone from "../../assets/images/mockIphone.png";
-import Planilha from "../../assets/download/planilha_oficial_inpay.xlsx";
 import Livro from "../../assets/download/ebook_inpay.pdf";
 
 const Banner = () => {
   return (
     <div className="BannerContainer">
       <div className="mocksContainer">
-        <img src={mockMac} className="mockMacBook" alt="Planilhas" />
         <img src={mockIphone} className="mockIphone" alt="E-book" />
       </div>
       <div className="textContainer">
